@@ -1,0 +1,117 @@
+.inputControl {
+    width: 100%;
+    margin-top: 1.2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: .5rem;
+    color: white;
+}
+
+#cornerNav {
+    z-index: 100;
+    width: 300px;
+    left: -240px;  /* 0.8 X 300  */
+    overflow: hidden;
+}
+.socialItem{
+    bottom: 50px;
+    left: 20px;
+}
+.navItems {
+    width: 80%;
+    overflow: hidden;
+    background-color: #dc3545;
+}
+.nav{
+    height: 60%;
+    overflow: hidden;
+}
+
+.inputControl::placeholder {
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.inputControl:focus {
+    outline: 3px solid #007bff79;
+    opacity: .7;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.moviePoster {
+    overflow: hidden;
+
+}
+
+.layer {
+    top: 100%;
+    transition: top 1.2s;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.moviePoster:hover .layer {
+    top: 0%;
+}
+
+ul li {
+    list-style: none;
+    /* padding-bottom: 1.2rem; */
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.634);
+    transition: color .5s;
+    cursor: pointer;
+}
+
+ul li a:hover,
+.socialItem a:hover {
+    color: #dc3545;
+}
+
+.navBox i {
+    cursor: pointer;
+}
+
+.socialItem a {
+    color: rgba(255, 255, 255, 0.847);
+    transition: color .5s;
+}
+
+.socialItem div {
+    color: rgba(255, 255, 255, 0.425);
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-65 {
+    width: 70%;
+}
+
+#contact input {
+    width: 48%;
+}
+
+.submit {
+    color: #dc354674;
+    background-color: transparent;
+    border: #dc354674 1px solid;
+    margin: 1.2rem .8rem;
+    width: 75px;
+    padding:  6px;
+}
+
+#contact .alert {
+    display: none;
+}
+
+
+/* navbar */
